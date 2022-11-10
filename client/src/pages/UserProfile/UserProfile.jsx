@@ -38,7 +38,7 @@ const UserProfile = () => {
                 <h1>{currentProfile?.name}</h1>
                 <p>
                   <FontAwesomeIcon icon={faBirthdayCake} /> Joined{" "}
-                  {moment(currentProfile?.joinedOn).fromNow()}
+                  {moment(currentProfile?.joinedON).fromNow()}
                 </p>
               </div>
             </div>
